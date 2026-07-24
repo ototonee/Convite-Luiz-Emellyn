@@ -267,8 +267,8 @@ object-fit: contain;
 }
 
 .item-botao span {
-    font-family: "Poppins", serif;
-    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.5px;
     text-align: center;
