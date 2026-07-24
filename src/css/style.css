@@ -413,19 +413,26 @@ overflow: hidden !important;
 .botao-selo2 {
     position: absolute !important;
     top: 50% !important;
-    left: -25px !important;
+    left: -38px !important;
     transform: translateY(-50%) !important;
     z-index: 10 !important;
 }
 
 .botao-selo2 img {
-    width: 60px !important;
+    width: 55px !important;
     height: auto !important;
+}
+
+.topo-citacao, .passagem, .colossenses, .convite {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
 }
 
 .topo-citacao {
     z-index: 2 !important;
-    margin-top: 10px !important;
+    margin: 15px 0 15px 0 !important;
 }
 
 .passagem {
@@ -442,17 +449,19 @@ overflow: hidden !important;
 .convite {
     font-size: 0.85rem !important;
     line-height: 1.4 !important;
-    margin: 10px 0 !important;
+    margin: 0 0 30px 0 !important;
     z-index: 2 !important;
 }
 
 .titulo-data {
     font-size: 1.1rem !important;
-    margin-bottom: 5px !important;
+    margin: 0 0 6px 0 !important;
     z-index: 2 !important;
 }
 
 .bloco-data-hora {
+    position: relative !important;
+    margin-bottom: 25px !important;
     z-index: 2 !important;
 }
 
