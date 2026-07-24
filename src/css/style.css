@@ -320,15 +320,22 @@ object-fit: contain;
         padding: 0 !important;
         background-color: #021E43 !important;
     }
-    .container, .hero {
-        width: 100vh 1 !important;
+    .container {
+        width: 100% !important;
+        height: 100vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .hero {
+        width: 100vh !important;
         height: 100vh !important;
         margin: 0 !important;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: space-between !important;
+        justify-content: center !important;
         align-items: center !important;
-        padding: 40px 20px 20px 20px !important;
+        padding: 40px 20px !important;
         box-sizing: border-box !important;
         position: relative !important;
         background-color: #021E43 !important;
@@ -341,6 +348,7 @@ object-fit: contain;
         left: 0 !important;
         top: 0 !important;
         z-index: 1;
+        margin: 0 !important;
     }
 
     .botao-selo {
@@ -360,7 +368,8 @@ object-fit: contain;
         font-size: 0.8rem !important;
         line-height: 1.4 !important;
         text-align: center !important;
-        margin-bottom: 10px !important;
+        margin-top: 0 !important;
+        margin-bottom: 35px !important;
     }
 
     .nomes-noivos {
@@ -368,16 +377,19 @@ object-fit: contain;
         font-size: 3.2rem !important;
         line-height: 1.2 !important;
         text-align: center;
-        margin: 15px 0 !important;
+        margin: 0 0 35px 0 !important;
     }
 
     .frase-inferior {
         font-size: 0.8rem !important;
         line-height: 1.4 !important;
         text-align: center !important;
-        margin-top: 10px !important;
+        margin: 0 0 18px !important;
     }
 
+    .rodape {
+        margin: 0 !important;
+    }
     .rodape p {
         font-size: 1.2rem !important;
         text-align: center !important;
