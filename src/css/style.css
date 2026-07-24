@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.hero { height: 100vh;
+    width: 100%;
+    background-color: #021E43;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+   position: relative;
+}
+
+.flores-topo-esquerdo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: auto;
+    pointer-events: none;
+}
+
+.botao-selo {
+    position: absolute;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    text-decoration: none;
+}
+
+.botao-selo img {
+width: 120px;
+height: auto;
+cursor: pointer;
+transition: transform 0.5s ease-in-out;    
+}
+
+.botao-selo img:hover {
+    transform: scale(1.05);
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight:  300;
+    color: #f2f2f2;
+}
+
+h2{  font-family: "Playfair Display", sans-serif;
+    font-size: 8rem;
+    font-weight: 150;
+    line-height: 1;
+    color: #f2f2f2;
+}
+
+h3{  font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #f2f2f2;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 30px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2rem;
+    font-weight: 50;
+    line-height: 1;
+    color: #f2f2f2;
+}
+
+@keyframes surgir {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1, h2, h3, h4, p, span, .rodape, .botao-selo, .botao-selo2, .divisor, .data, .bloco-data-hora, .botoes-rodape {
+    opacity: 0;
+    animation: surgir 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+
+h1 { animation-delay: 0.3s;}
+
+h2 { animation-delay: 0.6s;}
+
+h3 { animation-delay: 0.9s;}
+
+h4 { animation-delay: 1.2s;}
+
+p { animation-delay: 1.2s;}
+
+span { animation-delay: 1,2s;}
+
+.rdiviso { animation-delay: 1.2s;}
+.data { animation-delay: 1.2s;}
+.bloco-data-hora { animation-delay: 1.2s;}
+.botoes-rodape { animation-delay: 1.4s;}
+
+.rodape { animation-delay: 1.2s;}q
+.botao-selo { animation-delay: 1.4s;}
+.botao-selo2 { animation-delay: 1.4s;}
+
+@keyframes balancarTopo {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(2.5deg);
+    }
+}
+
+.flores-topo-esquerdo {
+    transform-origin: top left;
+    animation: balancarTopo 7s ease-in-out infinite;
+}
+
+
+.pg2 { height: 100vh;
+    width: 100%;
+    background-color: #F4F5F0;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0 40px;
+    text-align: center;
+    gap: 12px;
+   position: relative;
+}
+ .topo-citacao {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+ }
+
+.passagem {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight:  300;
+    color: #021E43;
+}
+
+.colossenses {  font-family: "Playfair Display", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #021E43;
+}
+
+.convite {  font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #021E43;
+    text-align: center;
+    max-width: 750px;
+    margin-bottom: 100px;
+}
+
+.botao-selo2 {
+    position: absolute;
+    left: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    text-decoration: none;
+}
+
+.botao-selo2 img {
+width: 120px;
+height: auto;
+cursor: pointer;
+transition: transform 0.5s ease-in-out;    
+}
+
+.botao-selo2 img:hover {
+    transform: scale(1.05);
+}
+
+.bloco-data-hora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.titulo-data {
+    font-family: "Playfair Display", serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: #021E43;
+    letter-spacing: 3px;
+    margin: 0 0 10px  0; 
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #021E43;
+}
+
+.data .divisor {
+font-weight: 200;
+opacity: 0.5;
+font-size: 3.5rem;
+}
+
+.hora {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #021E43;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.botoes-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.item-botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #021E43;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.item-botao img {
+width: 55px;
+height: 55px;
+object-fit: contain;
+}
+
+.item-botao span {
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.item-botao:hover {
+    transform: translateY(-5px);
+}
+
+.flores-rodape {
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 750px;
+    height: auto;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 1;
+
+    animation: entradaFlores 1.6s ease-out forwards;
+}
+
+.botoes-rodape {
+    position: relative;
+    z-index: 10;
+}
+
+@keyframes entradaFlores {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 40px);
+    }
+
+    to {
+        opacity: 0.85;
+        transform: translate(-50%, 0);
+    }
+}
