@@ -530,7 +530,7 @@ overflow: hidden !important;
 
     mix-blend-mode: multiply !important;
 
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%) !important;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%) !important;
 }
 }
