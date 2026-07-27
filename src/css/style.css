@@ -93,7 +93,7 @@ h3{  font-family: "Poppins", sans-serif;
     }
 }
 
-h1, h2, h3, h4, p, span, .rodape, .botao-selo, .botao-selo2, .divisor, .data, .bloco-data-hora, .botoes-rodape {
+h1, h2, h3, h4, p, span, .rodape, .botao-selo, .botao-selo2, .divisor, .data, .bloco-data-hora, .botoes-rodape, .colossenses {
     opacity: 0;
     animation: surgir 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
@@ -488,8 +488,28 @@ overflow: hidden !important;
 }
 
 .topo-citacao {
+    position: absolute !important;
+    top: 25px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 85% !important;
+    max-width: 360px !important;
+    text-align: center !important;
     z-index: 2 !important;
-    margin: 15px 0 15px 0 !important;
+}
+
+.topo-citacao, .topo-citacao p {
+    font-size: 0.8rem !important;
+    line-height: 1.35 !important;
+    color: #021E43 !important;
+    margin: 0 !important;
+}
+
+.topo-citacao span, .topo-citacao small, .topo-citacao .referencia {
+    font-size: 0.75rem !important;
+    display: block !important;
+    margin-top: 5px !important;
+    font-style: italic !important;
 }
 
 .passagem {
