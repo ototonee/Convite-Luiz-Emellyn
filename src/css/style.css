@@ -346,6 +346,8 @@ overflow: hidden !important;
     top: 50% !important;
     right: -25px !important;
     transform: translateY(-50%) !important;
+    align-items: center !important;
+    justify-content: center !important;
     z-index: 10 !important;
 }
 
@@ -353,6 +355,23 @@ overflow: hidden !important;
     width: 60px !important;
     height: auto !important;
     display: block !important;
+}
+
+.texto-curvo-selo {
+    position: absolute !important;
+    width: 130px !important;
+    height: 130px !important;
+    pointer-events: none !important;
+    overflow: visible !important;
+}
+
+.texto-curvo-selo text {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 8px !important;
+    font-weight: 500 !important;
+    fill: #d4af37 !important;
+    letter-spacing: 1px !important;
+    text-transform: lowercase !important;
 }
 
 .frase-superior {
