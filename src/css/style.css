@@ -460,9 +460,30 @@ overflow: hidden !important;
     background-color: #F4F5F0 !important;
 }
 
-.topo-citacao, .convite, .bloco-data-hora, .botoes-rodape {
+    .textura-topo-pg2 {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 280px !important;
+
+        background-image:  url(flowerspg2.jpeg) !important;
+        background-size: cover !important;
+        background-position: top center !important;
+        background-repeat: no-repeat !important;
+
+        mix-blend-mode: multiply !important;
+        -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%) !important;
+        mask-image: linear-gradient(to bottom, black 30%, transparent 100%) !important;
+
+        pointer-events: none !important;
+
+        z-index: 2 !important;
+    }
+
+.topo-citacao, .convite, .titulo-data, .bloco-data-hora, .botoes-rodape {
     position: relative !important;
-    z-index: 2 !important;
+    z-index: 3 !important;
     margin-top: 0 !important;
     margin-bottom: 20px !important;
 }
@@ -495,7 +516,6 @@ overflow: hidden !important;
     width: 85% !important;
     max-width: 360px !important;
     text-align: center !important;
-    z-index: 2 !important;
 }
 
 .topo-citacao, .topo-citacao p {
@@ -532,21 +552,18 @@ overflow: hidden !important;
     font-size: 0.85rem !important;
     line-height: 1.4 !important;
     margin: 0 0 30px 0 !important;
-    z-index: 2 !important;
 }
 
 .titulo-data {
     position: relative !important;
     font-size: 1.1rem !important;
     margin: 30px 0 10px 0 !important;
-    z-index: 2 !important;
     color: #021E43 !important;
 }
 
 .bloco-data-hora {
     position: relative !important;
     margin-bottom: 40px !important;
-    z-index: 2 !important;
 }
 
 .data span {
