@@ -349,11 +349,6 @@ overflow: hidden !important;
     z-index: 1 !important;
 }
 
-.hero > *:not(.textura-fundo) {
-    position: relative !important;
-    z-index: 2 !important;
-}
-
 .flores-topo-esquerdo {
     position: absolute  !important;
     top: 0 !important;
