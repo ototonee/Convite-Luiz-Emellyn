@@ -500,4 +500,25 @@ overflow: hidden !important;
     width: 45px !important;
     height: 45px !important; 
 }
+
+.foto-aquarela {
+    width: 100% !important;
+    max-width: 200px !important;
+    margin: 15px auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 2 !important;
+}
+
+.foto-aquarela img {
+    width: 100% !important;
+    height: auto !important;
+    opacity: 0.9 !important;
+
+    mix-blend-mode: multiply !important;
+
+    -webkit-mask-image: radial-gradient(circle at center, black 35%, transparent 85%) !important;
+    mask-image: radial-gradient(circle at center, black 35%, transparent 85%) !important;
+}
 }
