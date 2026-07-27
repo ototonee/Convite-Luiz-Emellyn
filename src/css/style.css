@@ -344,8 +344,9 @@ overflow: hidden !important;
 .botao-selo {
     position: absolute !important;
     top: 50% !important;
-    right: -25px !important;
+    right: -15px !important;
     transform: translateY(-50%) !important;
+    display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     z-index: 10 !important;
@@ -359,16 +360,19 @@ overflow: hidden !important;
 
 .texto-curvo-selo {
     position: absolute !important;
-    width: 130px !important;
-    height: 130px !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 110px !important;
+    height: 110px !important;
     pointer-events: none !important;
     overflow: visible !important;
 }
 
 .texto-curvo-selo text {
     font-family: "Poppins", sans-serif !important;
-    font-size: 8px !important;
-    font-weight: 500 !important;
+    font-size: 8.5px !important;
+    font-weight: 600 !important;
     fill: #d4af37 !important;
     letter-spacing: 1px !important;
     text-transform: lowercase !important;
