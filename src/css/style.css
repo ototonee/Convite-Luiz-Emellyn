@@ -331,6 +331,29 @@ overflow: hidden !important;
     overflow: hidden !important;
 }
 
+.textura-fundo {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: url(capitone.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    mix-blend-mode: multiply !important;
+
+    opacity: 0.7 !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+}
+
+.hero > *:not(.textura-fundo) {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
 .flores-topo-esquerdo {
     position: absolute  !important;
     top: 0 !important;
