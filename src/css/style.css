@@ -571,6 +571,15 @@ overflow: hidden !important;
     height: 45px !important; 
 }
 
+.item-botao span {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    display: block !important;
+}
+
 .foto-aquarela {
     position: absolute !important;
     top: 50% !important;
